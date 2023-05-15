@@ -11,18 +11,19 @@
     <!--This is our Bean-->
     <bean class="org.springcore.Student" name="student1">
 
-        <property name="studentId">
-            <value>2345</value>
-        </property>
+        <property name="studentId" value = "2345"/>
+        <property name="studentName" value = "Vikas"/>
+        <property name="studentCity" value = "Bihar"/>
 
-        <property name="studentName">
-            <value>Vikash</value>
-        </property>
-
-        <property name="studentCity">
-            <value>Samstipur</value>
-        </property>
     </bean>
 
+
+    <bean class="org.springcore.Student" name="student2">
+
+        <property name="studentId" value = "1000"/>
+        <property name="studentName" value = "Random"/>
+        <property name="studentCity" value = "Delhi"/>
+
+    </bean>
 
 </beans>
