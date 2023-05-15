@@ -8,6 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main (String[] args) {
+
         System.out.println("Hello world!");
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
@@ -16,5 +17,6 @@ public class Main {
 
         Student student2 = (Student) context.getBean("student2");
         System.out.println(student2);
+
     }
 }
