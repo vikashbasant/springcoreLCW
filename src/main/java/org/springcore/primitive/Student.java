@@ -1,4 +1,4 @@
-package org.springcore;
+package org.springcore.primitive;
 
 
 public class Student {
