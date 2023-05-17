@@ -9,13 +9,13 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--This is our Bean-->
-    <bean name="bref" class="org.springcore.reference.B" >
+    <bean name="bref" class="org.springcore.si.reference.B" >
         <property name="y" value="90"/>
     </bean>
 
 
     <!--This is our Bean-->
-    <bean name="aref" class="org.springcore.reference.A" p:x="33" p:obj-ref="bref">
+    <bean name="aref" class="org.springcore.si.reference.A" p:x="33" p:obj-ref="bref">
         <!--<property name="x" value="80"/>
         &lt;!&ndash;<property name="obj">
             <ref bean="bref"/>

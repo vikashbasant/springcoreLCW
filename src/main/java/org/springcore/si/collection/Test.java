@@ -1,4 +1,4 @@
-package org.springcore.collection;
+package org.springcore.si.collection;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
